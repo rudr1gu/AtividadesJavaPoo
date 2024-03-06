@@ -15,11 +15,7 @@ public class Aluno extends Pessoa{
 
     // Método para verificar se o aluno foi aprovado
     public void isAprovacao() {
-        if (notaFinal >= 5) {
-            aprovado = true;
-        } else {
-            aprovado = false;
-        }
+        aprovado = notaFinal >= 5;
     }
 
     // Método para obter o status de aprovação
