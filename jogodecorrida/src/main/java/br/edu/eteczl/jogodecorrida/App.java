@@ -27,6 +27,7 @@ public class App
     	Carros cc2 = new ClassicCar("Volkswagen Golf");
     	Carros cc3 = new ClassicCar("Nissan GT-R");
         
+    	//Adicionando os Carros em uma Array
         ArrayList<Carros> participantes = new ArrayList();
         participantes.add(cc1);
         participantes.add(mc1);
@@ -38,7 +39,8 @@ public class App
         participantes.add(mc3);
         participantes.add(cs3);
         
+        //Usando o metodo corrida para pegar todos os carros da Array
+        //Usando o metodo startCorrinda para imprimir com um laço o modelo e a string do metodo Acelera()  
         new Corrida(participantes).startCorrida();
-    }
-  
+    }  
 }
