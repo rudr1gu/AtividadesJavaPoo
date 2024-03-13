@@ -8,10 +8,6 @@ import model.MuscleCar;
 import model.ClassicCar;
 import model.Corrida;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
@@ -44,6 +40,5 @@ public class App
         
         new Corrida(participantes).startCorrida();
     }
-    
-    
+  
 }
